@@ -12,9 +12,13 @@
 
 ![График параболы matplotlib][first_graph_matplotlib]
 
+![График параболы с желтой и пунктирной линией matplotlib][second_graph_matplotlib]
+
 <!-- Ссылки -->
 <!-- Для matplotlib -->
 [matplotlib_notebook]: matplotlib.ipynb "Примеры использования библиотеки `matplotlib`"
 <!-- Графики matplotlib -->
 <!-- График параболы -->
 [first_graph_matplotlib]: media/matplotlib/first_graph.jpg
+<!-- График параболы с желтой и пунктирной линией -->
+[second_graph_matplotlib]: media/matplotlib/second_graph.jpg
