@@ -8,3 +8,13 @@
 Первая публикация: 7 августа.
 
 Защита: 30 августа.
+
+## Выполненные задания
+
+### Изучение библиотек визуализации Python
+
+Работы выполненные по изучению библиотек визуализации Python расположены в директории 
+[exploring_visualization_library][link_on_folder_exploring_visualization_library]
+
+<!-- Ссылки -->
+[link_on_folder_exploring_visualization_library]: exploring_visualization_libraries
