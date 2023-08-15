@@ -57,6 +57,18 @@
 
 </details>
 
+<details>
+
+<summary><h2>Plotly<h2></summary>
+
+Примеры использования библиотеки `plotly` изложены в
+[plotly.ipynb][plotly_notebook]
+
+**Важно:** plotly сохраняет графики в формате `.html`, поэтому
+просмотреть их можно скачав репозиторий и перейдя в папку
+[media/plotly/][media/plotly_link]
+
+</details>
 
 <!-- Ссылки -->
 
@@ -75,7 +87,9 @@
 [several_multiple_graphs_matplotlib]: media/matplotlib/several_multiple_graphs.jpg
 <!-- Столбчатая диаграмма -->
 [first_bar_chart_matplotlib]: media/matplotlib/first_bar_chart.jpg
+
 <!-- Для seaborn -->
+
 [seaborn_notebook]: seaborn.ipynb
 <!-- Графики matplotlib -->
 <!-- График отношения чаевых к общему счету, раделенный на обед и ужин -->
@@ -88,3 +102,9 @@
 [fourth_graph_seaborn]: media/seaborn/fourth_graph.jpg
 [fifth_graph_seaborn]: media/seaborn/fifth_graph.jpg
 [sixth_graph_seaborn]: media/seaborn/sixth_graph.jpg
+
+<!-- Для plotly -->
+
+[plotly_notebook]: plotly.ipynb
+<!-- Ссылка на директорию с графиками -->
+[media/plotly_link]: media/plotly
