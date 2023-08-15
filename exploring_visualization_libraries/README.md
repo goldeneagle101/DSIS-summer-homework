@@ -3,7 +3,9 @@
 В данной директории содержатся записи в формате`Jupyter notebook` 
 и другие материалы используемые при изучении библиотек визуализации Python.
 
-## Matplotlib
+<details>
+
+<summary><h2>Matplotlib<h2></summary>
 
 Примеры использования библиотеки `matplotlib` изложены в 
 [matplotlib.ipynb][matplotlib_notebook]
@@ -24,6 +26,8 @@
 
 ### Столбчатая диаграмма
 ![Столбчатая диаграмма matplotlib][first_bar_chart_matplotlib]
+
+</details>
 
 
 <!-- Ссылки -->
