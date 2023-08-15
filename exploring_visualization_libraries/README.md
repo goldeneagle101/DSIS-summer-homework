@@ -70,6 +70,19 @@
 
 </details>
 
+<details>
+
+<summary><h2>Bokeh<h2></summary>
+
+Примеры использования библиотеки `Bokeh` изложены в
+[bokeh.ipynb][bokeh_notebook]
+
+**Важно:** bokeh сохраняет графики в формате `.html`, поэтому
+просмотреть их можно скачав репозиторий и перейдя в папку
+[media/bokeh/][media/bokeh_link]
+
+</details>
+
 <!-- Ссылки -->
 
 
@@ -108,3 +121,9 @@
 [plotly_notebook]: plotly.ipynb
 <!-- Ссылка на директорию с графиками -->
 [media/plotly_link]: media/plotly
+
+<!-- Для bokeh -->
+
+[bokeh_notebook]: bokeh.ipynb
+<!-- Ссылка на директорию с графиками -->
+[media/bokeh_link]: media/bokeh
