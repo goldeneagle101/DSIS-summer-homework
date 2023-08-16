@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8b21a6e33c59ba8e71c1f1e866e2d976 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8b21a6e33c59ba8e71c1f1e866e2d976" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8b21a6e33c59ba8e71c1f1e866e2d976 = L.map(
+                "map_8b21a6e33c59ba8e71c1f1e866e2d976",
+                {
+                    center: [55.7515, 37.6182],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_368ac8de8009112b22ef998f43595db4 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8b21a6e33c59ba8e71c1f1e866e2d976);
+        
+    
+            var marker_50d2ae4ceaa3122f4d716dd94852d053 = L.marker(
+                [55.7515, 37.6182],
+                {}
+            ).addTo(map_8b21a6e33c59ba8e71c1f1e866e2d976);
+        
+    
+            var icon_14f45d4d6b511a3325efd7286b73cc10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hand-down", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_50d2ae4ceaa3122f4d716dd94852d053.setIcon(icon_14f45d4d6b511a3325efd7286b73cc10);
+        
+    
+        var popup_70f548dd8f826c9a4a80231dc73ce7ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c61d1f368089973cb83e7e8a359ce22 = $(`<div id="html_9c61d1f368089973cb83e7e8a359ce22" style="width: 100.0%; height: 100.0%;">Кремль</div>`)[0];
+                popup_70f548dd8f826c9a4a80231dc73ce7ff.setContent(html_9c61d1f368089973cb83e7e8a359ce22);
+            
+        
+
+        marker_50d2ae4ceaa3122f4d716dd94852d053.bindPopup(popup_70f548dd8f826c9a4a80231dc73ce7ff)
+        ;
+
+        
+    
+    
+            marker_50d2ae4ceaa3122f4d716dd94852d053.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64a3cd3a555a418d9b5667bdcb5aa3df = L.marker(
+                [55.7495, 37.6134],
+                {}
+            ).addTo(map_8b21a6e33c59ba8e71c1f1e866e2d976);
+        
+    
+            var icon_3714e69934f0093b998af2059bb0df12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_64a3cd3a555a418d9b5667bdcb5aa3df.setIcon(icon_3714e69934f0093b998af2059bb0df12);
+        
+    
+        var popup_4b90113d060f20c3af653154256ae515 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5189aee738c8b90e8eb35a992fbbc490 = $(`<div id="html_5189aee738c8b90e8eb35a992fbbc490" style="width: 100.0%; height: 100.0%;">Оружейная палата</div>`)[0];
+                popup_4b90113d060f20c3af653154256ae515.setContent(html_5189aee738c8b90e8eb35a992fbbc490);
+            
+        
+
+        marker_64a3cd3a555a418d9b5667bdcb5aa3df.bindPopup(popup_4b90113d060f20c3af653154256ae515)
+        ;
+
+        
+    
+    
+            marker_64a3cd3a555a418d9b5667bdcb5aa3df.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+                var lat_lng_popup_bfcbb9b0341e12bc88cf514244663b23 = L.popup();
+                function latLngPop(e) {
+                    lat_lng_popup_bfcbb9b0341e12bc88cf514244663b23
+                        .setLatLng(e.latlng)
+                        .setContent("Latitude: " + e.latlng.lat.toFixed(4) +
+                                    "<br>Longitude: " + e.latlng.lng.toFixed(4))
+                        .openOn(map_8b21a6e33c59ba8e71c1f1e866e2d976);
+                    }
+                map_8b21a6e33c59ba8e71c1f1e866e2d976.on('click', latLngPop);
+            
+</script>
+</html>
