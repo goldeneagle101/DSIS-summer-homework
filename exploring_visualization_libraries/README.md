@@ -83,6 +83,19 @@
 
 </details>
 
+<details>
+
+<summary><h2>Folium<h2></summary>
+
+Примеры использования библиотеки `Folium` изложены в
+[folium.ipynb][folium_notebook]
+
+**Важно:** folium сохраняет графики в формате `.html`, поэтому
+просмотреть их можно скачав репозиторий и перейдя в папку
+[media/folium/][media/folium_link]
+
+</details>
+
 <!-- Ссылки -->
 
 
@@ -127,3 +140,9 @@
 [bokeh_notebook]: bokeh.ipynb
 <!-- Ссылка на директорию с графиками -->
 [media/bokeh_link]: media/bokeh
+
+<!-- Для folium -->
+
+[folium_notebook]: folium.ipynb
+<!-- Ссылка на директорию с графиками -->
+[media/folium_link]: media/folium
