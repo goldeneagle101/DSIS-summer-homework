@@ -21,6 +21,8 @@
 
 </details>
 
+<details>
+
 <summary><h2>SciPy<h2></summary>
 
 Примеры использования библиотеки `scipy` изложены в
