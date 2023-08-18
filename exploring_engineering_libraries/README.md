@@ -12,9 +12,22 @@
 
 </details>
 
+<details>
+
+<summary><h2>SymPy<h2></summary>
+
+Примеры использования библиотеки `sympy` изложены в
+[sympy.ipynb][sympy_notebook]
+
+</details>
+
 <!-- Ссылки -->
 
 
 <!-- Для numpy -->
 
 [numpy_notebook]: numpy.ipynb "Примеры использования библиотеки `numpy`"
+
+<!-- Для sympy -->
+
+[sympy_notebook]: sympy.ipynb "Примеры использования библиотеки `sympy`"
