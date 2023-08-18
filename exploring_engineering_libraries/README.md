@@ -21,6 +21,13 @@
 
 </details>
 
+<summary><h2>SciPy<h2></summary>
+
+Примеры использования библиотеки `scipy` изложены в
+[scipy.ipynb][scipy_notebook]
+
+</details>
+
 <!-- Ссылки -->
 
 
@@ -31,3 +38,7 @@
 <!-- Для sympy -->
 
 [sympy_notebook]: sympy.ipynb "Примеры использования библиотеки `sympy`"
+
+<!-- Для scipy -->
+
+[scipy_notebook]: scipy.ipynb "Примеры использования библиотеки `scipy`"
