@@ -14,7 +14,13 @@
 ### Изучение библиотек визуализации Python
 
 Работы, выполненные по изучению библиотек визуализации Python, расположены в директории 
-[exploring_visualization_library][link_on_folder_exploring_visualization_library]
+[exploring_visualization_libraries][link_on_folder_exploring_visualization_libraries]
+
+### Изучение инженерных библиотек Python
+
+Работы, выполненные по изучению инженерных библиотек Python, расположены в директории
+[exploring_engineering_libraries][link_on_folder_exploring_engineering_libraries]
 
 <!-- Ссылки -->
-[link_on_folder_exploring_visualization_library]: exploring_visualization_libraries
+[link_on_folder_exploring_visualization_libraries]: exploring_visualization_libraries
+[link_on_folder_exploring_engineering_libraries]: exploring_engineering_libraries
