@@ -30,6 +30,17 @@
 
 </details>
 
+<details>
+
+<summary><h2>Pandas<h2></summary>
+
+Примеры использования библиотеки `pandas` изложены в
+[pandas.ipynb][pandas_notebook]
+
+Данные, используемые и сохраняемые при работе с библиотекой, в формате `csv` расположены в директории [data/][pandas_data_folder]
+
+</details>
+
 <!-- Ссылки -->
 
 
@@ -44,3 +55,8 @@
 <!-- Для scipy -->
 
 [scipy_notebook]: scipy.ipynb "Примеры использования библиотеки `scipy`"
+
+<!-- Для pandas -->
+
+[pandas_notebook]: pandas.ipynb "Примеры использования библиотеки `pandas`"
+[pandas_data_folder]: data/ "Директория содержащая файлы, используемые при работе с библиотекой, в формате `csv`"
