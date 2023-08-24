@@ -30,7 +30,18 @@ pip install -r requirements.txt
 Работы, выполненные по изучению инженерных библиотек Python, расположены в директории
 [exploring_engineering_libraries][link_on_folder_exploring_engineering_libraries]
 
+
+### Исследование выборки
+
+Исследования выборки опубликованы в файле [research.ipynb][research_file], который расположен в директории [research][research_folder], где расположены и другие файлы, используемые в ходе работы.
+
+## P.S.
+
+Это мое первое задание по `Data Science`, так что не судите строго :)
+
 <!-- Ссылки -->
 [requirements]: requirements.txt
 [link_on_folder_exploring_visualization_libraries]: exploring_visualization_libraries
 [link_on_folder_exploring_engineering_libraries]: exploring_engineering_libraries
+[research_file]: research/research.ipynb
+[research_folder]: research/
