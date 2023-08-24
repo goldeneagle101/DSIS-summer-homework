@@ -1,5 +1,14 @@
 # Исследование набора данных `Firewall.csv`
 
+## Подготовка среды для исследования
+
+Необходимые зависимости для исследования описаны в файле [requirements.txt][requirements_file]
+
+Для того, чтобы установить все необходимые зависимости, необходимо выполнить команду:
+```bash
+pip install -r requirements.txt
+```
+
 ## Введение
 
 Брандмауэр (от нем. `Brandmauer`, от `Brand` - "пожар", и `Mauer` - "стена") является важным элементом при обеспечении информационной безопасности в организации, т.к. обнаруживает и блокирует сетевой трафик на основе списков доступа или динамических правил.
@@ -50,3 +59,5 @@
 [kaggle_firewall]: https://www.kaggle.com/datasets/sgd825344491/internet-firewall
 
 [research_notebook]: research.ipynb
+
+[requirements_file]: requirements.txt
